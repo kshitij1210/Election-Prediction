@@ -13,6 +13,10 @@ Datasets used are in the folder 'data'.
 
 3.) Pandas
 
+# How to Run
+
+To execute the code, just run the main.py file. It will call the required model for training and testing.
+
 # Results
 
 Statistics at Epoch 100/100: loss: 0.2149, acc: 0.7580, val_loss: 0.2139, val_acc: 0.8361
