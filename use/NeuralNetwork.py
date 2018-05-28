@@ -66,7 +66,7 @@ class NeuralNetwork(object):
                   metrics=['accuracy'])
 
         # x_train and y_train are Numpy arrays --just like in the Scikit-Learn API.
-        model.fit(x_train, y_train, epochs=10, batch_size=1000, validation_split=0.1,
+        model.fit(x_train, y_train, epochs=100, batch_size=1000, validation_split=0.1,
               class_weight={0:0.78, 1:0.22},
              )
 
